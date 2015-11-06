@@ -1,0 +1,105 @@
+
+chart_width_min  = 64
+chart_width_max  = 64
+
+chart_width_ref  = 64
+allow_scaling    = false
+
+frame_top_height  = 0
+frame_bottom_height  = 0
+frame_left_width  = 0
+frame_right_width  = 0
+
+frame_top_border = 2,2,0,0
+frame_bottom_border = 2,2,0,0
+frame_left_border = 0,0,0,0
+frame_right_border = 0,0,0,0
+
+
+chart_in_color       = #444
+chart_in_color_grid  = #444
+chart_out_color      = #444
+chart_out_color_grid = #444
+
+bg_grid_mode = 1
+
+rx_led_x = -14
+rx_led_y = 11
+tx_led_x = -1
+tx_led_y = 11
+
+timer_time_x = 1
+timer_button_x = -4
+
+bg_timer_border = 2,2,2,2
+
+button_panel_border = 2,2,2,2
+button_meter_border = 2,2,2,2
+
+large_font = "-adobe-helvetica-medium-r-normal-*-*-120-*-*-p-*-*-*"
+normal_font = "-adobe-helvetica-medium-r-normal-*-*-100-*-*-p-*-*-*"
+small_font   = "-adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-*-*"
+
+
+bg_slider_panel_border = 1,1,1,1
+bg_slider_meter_border = 1,1,1,1
+
+
+StyleChart  *.border = 5,5,5,5
+StyleChart  *.font = normal_font
+StyleChart  *.alt_font = small_font
+StyleChart  *.textcolor = #444 #444 none
+StyleChart  *.alt_textcolor = #444 #444 none
+
+StylePanel  *.border = 0,0,11,2
+StylePanel  *.font = normal_font
+StylePanel  *.alt_font = normal_font
+StylePanel  *.textcolor = #444444 #444444 none
+StylePanel  *.alt_textcolor = #444444 #444444 none
+StylePanel  *.label_position = -1000
+StylePanel  net.label_position = -1000
+StylePanel  *.margin = 20
+StylePanel  *.krell_x_hot = 63
+StylePanel  *.krell_depth = 65
+StylePanel  *.krell_yoff = 3
+
+StyleMeter  *.border = 0,0,12,4
+StyleMeter  mem.border = 0,0,12,4
+StyleMeter  swap.border = 0,0,12,2
+StyleMeter  *.font = normal_font
+StyleMeter  *.alt_font = small_font
+StyleMeter  *.textcolor = #444444 #444444 none
+StyleMeter  *.alt_textcolor = #444444 #444444 none
+StyleMeter  *.label_position = 100
+StyleMeter  mem.label_position = 100
+StyleMeter  swap.label_position = 100
+StyleMeter  *.margin = 3
+StyleMeter  *.krell_x_hot = 63
+StyleMeter  mail.krell_x_hot = -1
+StyleMeter  *.krell_depth = 65
+StyleMeter  *.krell_yoff = 4
+
+
+* cal.font and cal.textcolor is for day of week and month name
+StyleMeter  cal.font = med_font
+StyleMeter  cal.textcolor = #444444 #444444 none
+
+StyleMeter  cal.alt_font = large_font
+
+* clock.font and clock.textcolor is for hours & minutes
+StyleMeter  clock.font = large_font
+StyleMeter  clock.textcolor = #444444 #444444 none
+
+StyleMeter  fs.border = 0,0,12,2
+StyleMeter  timer.border = 0,0,2,5
+StyleMeter  host.border = 20,0,2,5
+StyleMeter  cal.border = 0,0,3,2
+StyleMeter  clock.border = 0,0,2,5
+StyleMeter  uptime.border = 0,0,4,3
+StyleMeter  fs.label_position = 100
+StyleMeter  fs.alt_font = normal_font
+StyleMeter  host.textcolor =  #444 #444 none
+StyleMeter  mail.alt_textcolor = #444444 #444444 none
+StyleMeter  timer.textcolor = #444444  #444444 none
+StyleMeter  uptime.textcolor = #444444 #444444 none
+
